@@ -27,5 +27,5 @@ var y = 44  // the scope of y would be package level
 
 func foo(){
 	fmt.Println("var:", y)  // y = 44
-	fmt.Println(z)			 // z = 0
+	fmt.Println(z)		// z = 0
 }
